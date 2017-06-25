@@ -1,0 +1,7 @@
+.sideNav {
+	text-align: left; 
+	background-color: grey;
+	grid-column: 1;
+	grid-row: 2 / -1;
+	padding-left: 1rem;
+}

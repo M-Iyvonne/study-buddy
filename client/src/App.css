@@ -1,0 +1,16 @@
+.app {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 1em;
+  grid-template-rows: auto;
+
+}
+header {
+  text-align: center;
+  grid-column: 1 / -1;
+  background-color: lightblue;
+}
+
+
+
+

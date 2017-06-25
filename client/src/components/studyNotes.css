@@ -1,0 +1,6 @@
+.studyNotes {
+	grid-column: 2 / 7;
+	grid-row: span 10;
+	background-color: lightgrey;
+/*	height: 150px;
+*/}
