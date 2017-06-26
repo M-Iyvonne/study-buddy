@@ -1,0 +1,31 @@
+{
+  "name": "study-buddy",
+  "version": "0.0.0",
+  "homepage": "https://github.com/M-Iyvonne/study-buddy",
+  "authors": [
+    "JP DeVries <mail@devries.jp>"
+  ],
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "neat": "~2.0.0"
+  },
+
+  "exportsOverride": {
+    "neat": {
+      "": "core/"
+    }
+  }
+
+}
